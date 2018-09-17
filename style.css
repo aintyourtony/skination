@@ -1,0 +1,26 @@
+.main-image {    
+    position: relative;
+    max-width: 250px;
+    transition: 0s 180s;
+}
+.main-image .image-hidden{    
+    position: absolute; top: 0; left: 0;
+    opacity: 0;      
+}
+.main-image:hover .image-hidden{
+    opacity: 1;
+    position: absolute; top: 0; left: 0;  
+    transition: 0.5s;
+}
+.main-image {
+    line-height:1.2em;
+    font-size:1em;
+    color:black;
+    transition:0s 180s;
+}
+.main-image:hover {
+    line-height:0;
+    font-size:0;
+    color:transparent;
+    transition:0;
+}
